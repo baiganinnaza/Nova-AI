@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nova AI</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1>Nova AI</h1>
+    <p>
+      Your personal questionnaire generator. He will make a questionnaire for
+      you based on your online course. Send him the data and he will make you a
+      questionnaire.
+    </p>
+
+    <div id="messages"></div>
+
+    <form onsubmit="submitForm(event)">
+      <input type="text" id="input" placeholder="Введите запрос" />
+    </form>
+
+    <script src="index.js"></script>
+  </body>
+</html>
